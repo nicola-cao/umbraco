@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "covid.Web", "covid.Web\", "{6BE325AD-3C1B-49AB-89DB-2D7ECE31364A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_6954"
+		Debug.AspNetCompiler.PhysicalPath = "covid.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6954\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_6954"
+		Release.AspNetCompiler.PhysicalPath = "covid.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6954\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "6954"
+		SlnRelativePath = "covid.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{FE3973CE-38BF-4065-B619-9E4237368E4F} = {FE3973CE-38BF-4065-B619-9E4237368E4F}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "covid.Core", "covid.Core\covid.Core.csproj", "{FE3973CE-38BF-4065-B619-9E4237368E4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BE325AD-3C1B-49AB-89DB-2D7ECE31364A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE325AD-3C1B-49AB-89DB-2D7ECE31364A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3973CE-38BF-4065-B619-9E4237368E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3973CE-38BF-4065-B619-9E4237368E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3973CE-38BF-4065-B619-9E4237368E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3973CE-38BF-4065-B619-9E4237368E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D752F1A6-7913-46FC-8196-138324A06D7D}
+	EndGlobalSection
+EndGlobal
