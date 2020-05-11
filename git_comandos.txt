@@ -1,0 +1,7 @@
+git status -> muestra todos los ficheros con modificaciones
+git add <nombre fichero> -> mover fichero a staging area
+git add . -> mueves todos los ficheros a staging area
+git diff -> muestra diferencias entre fichero dentro y fuera de area
+git commit -m "" -> hace commit con mensaje
+git push -> realiza el push al repositorio remoto (lo sube a la web)
+git pull -> copia todos los cambios en remoto a local
